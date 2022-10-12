@@ -1,0 +1,117 @@
+img.card-img-top {
+    min-height: 300px !important;;
+    max-height: 390px !important;
+}
+.max-wd-150 {max-width: 150px;}
+
+.home-bg{
+    background: url("assets/NA_1.jpg");
+}
+
+a {
+    color: #2a7ae2;
+    text-decoration: none;
+}
+
+.hero.tall {
+    padding: 30px;
+}
+.hero.tall
+div.container {
+    background-color: rgba(254,254,254,.7);
+    border: 1px solid rgba(254,254,254,.85);
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+    max-width: 950px;
+    height:fit-content;
+    margin: 0 auto;
+}
+/* 300 Mill Attempt Styling FIX NEEDED */
+.hero.tall
+span {
+color: #de8216 !important;;
+font-weight:700;
+}
+
+/* Through Line Attempt FIX NEEDED */
+.through_line {
+font-size: 14px;
+display: table;
+width: 100%;
+white-space: nowrap;
+margin-bottom: 15px;
+text-transform: uppercase;
+letter-spacing: .09em;
+font-weight: 700;
+color: #828282;
+margin-top: 20px;
+}
+
+h2.through {
+    display: table;
+    white-space: nowrap;
+    width: 100%;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    font-weight: 700;
+    color: #828282;
+    margin-top: 20px;
+}
+
+h2.through:after {
+    width: 200px;
+    height: 20px;
+    /* background: red; */
+    /* color: red; */
+    content: "hi";
+    opacity: 1;
+    background-clip: padding-box;
+    background-image: linear-gradient(transparent 47%,#dddddd 48%,#dddddd 52%,transparent 52%);
+    content: "";
+    display: table-cell;
+    width: 100%;
+    border-left: 10px solid #fdfdfd;
+}
+
+.donatefooter {
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    background-color: #f8f8f8;
+    padding: 26px 0;
+    margin-top: 30px;
+}
+
+b,
+strong {
+  font-weight: bolder;
+  color: black
+}
+
+
+.wrapper {
+    max-width: -webkit-calc(1000px - (30px * 2));
+    max-width: calc(1000px - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+/* I Have No Clue if the following below is Necessary */
+.sponsor-logo-small {
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+img[Attributes Style] {
+    width: 80px;
+    aspect-ratio: auto 80 / 48;
+    height: 48px;
+}

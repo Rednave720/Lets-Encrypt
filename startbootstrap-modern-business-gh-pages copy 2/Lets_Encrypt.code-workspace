@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../Lets_Encrypt"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "VS_Code UI"
+	}
+}
